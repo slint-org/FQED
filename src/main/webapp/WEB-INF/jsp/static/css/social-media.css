@@ -1,0 +1,53 @@
+/* =================================================
+  Social Media Styles
+================================================= */
+.facebook {
+  background-position: -40px 0px;
+  width: 35px;
+  height: 35px; }
+
+.facebook img {
+  background-position: 0px 0px !important;
+  width: 35px !important;
+  height: 35px !important; }
+
+.linkedin img {
+  background-position: -40px -80px;
+  width: 35px;
+  height: 35px; }
+
+.social-media {
+  position: fixed;
+  left: 0;
+  top: 40%;
+  z-index: 1000;
+  width: 50px; }
+
+.social-networks {
+  text-align: center; }
+
+.social_tag, .social-networks {
+  text-align: center; }
+
+.social-networks img {
+  width: 10%;
+  height: 10%; }
+
+.twitter img {
+  background-position: -40px -40px;
+  width: 35px;
+  height: 35px; }
+
+.youtube img {
+  background-position: 0px 0px !important;
+  width: 35px !important;
+  height: 35px !important; }
+
+.youtube {
+  background-position: -40px 0px;
+  width: 35px;
+  height: 35px; }
+
+/* =================================================
+  End of Social Media Styling
+==================================================== */

@@ -1,0 +1,264 @@
+body {
+	background: url(../img/background.png);
+}
+
+.main-container {
+	//background: #fff;
+	//-webkit-box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+    //-moz-box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+    //box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+	//border-top-width: 0px;
+	//margin-bottom: 10px;
+	//border-bottom-right-radius: 5px;
+	//border-bottom-left-radius: 5px;
+
+	width: 100%;
+        float:left;
+    	word-break: break-word;
+    	-webkit-hyphens: auto;
+    	   -moz-hyphens: auto;
+    	        hyphens: auto;
+
+	border-top: 5px solid #054927;
+
+	-webkit-box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+        -moz-box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+        box-shadow: 2px 2px 5px #686c77, -2px 0 5px #686c77;
+        background: #fff;
+        -moz-border-radius-bottomright: 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        -moz-border-radius-bottomleft: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-bottom: 20px;
+}
+
+.page-header {
+    margin: 0;
+    padding: 0;
+    border: none !important;
+}
+
+.navbar {
+	padding: 0;
+	margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    height: auto;
+        width: auto;
+}
+
+
+.top-bar {
+    position: absolute;
+    vertical-align: middle;
+    top: 0;
+    right: 20.8%;
+    margin: 0;
+    height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+   // padding-left: 23px;
+   background: url(../img/top-bar-background.png) bottom left no-repeat;
+    color: #054927;
+}
+.top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    background: #054927;
+    height: 22px;
+    padding: 1px;
+    padding-right: 5px;
+}
+.top-bar ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+.top-bar ul li a {
+    color: #fff;
+    border-right: 1px solid #ffe5e5;
+    padding: 0 10px;
+}
+.top-bar ul li:last-child a {
+	border-right: 0;
+}
+/* TODO: move into bootstrap builder */
+/* reduce container space-waste in intermediate breakpoint */
+@media(min-width: 768px) {
+	.container {
+		max-width: 760px;
+	}
+}
+
+@media(min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+/* make nav buttons full width on smaller resolutions */
+@media(max-width: 769px) {
+	nav .pure-button {
+		width: 100%;
+		text-align: left;
+	}
+	nav .dropdown-item {
+		padding: .4em 3em;
+	}
+}
+
+/* Main logo colors */
+.st0 {
+	fill: #A3D7F2;
+}
+
+.st1 {
+	fill: #AAB7D9;
+}
+
+.st2 {
+	fill: #ADDBD1;
+}
+
+.st3 {
+	fill: #731916;
+}
+
+.st4 {
+	fill: #FBD1C1;
+}
+
+.st5 {
+	fill: #FEEEBB;
+}
+
+.st6 {
+	fill: #A10732;
+}
+
+.st7 {
+	fill: #091F35;
+}
+
+.st8 {
+	font-size: 42px;
+	fill: #000000;
+	font-family: BankGothic;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+
+/* Footer logo colors */
+.cls-1 {
+	fill: #fff;
+}
+
+.cls-2 {
+	fill: #a3d7f2;
+}
+
+.cls-3 {
+	fill: #aab7d9;
+}
+
+.cls-4 {
+	fill: #addbd1;
+}
+
+.cls-5 {
+	fill: #731916;
+}
+
+.cls-6 {
+	fill: #fbd1c1;
+}
+
+.cls-7 {
+	fill: #feeebb;
+}
+
+#footer {
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+	margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 8px;
+        padding: 10px 0;
+        position: relative;
+	background-color: #29496f;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, 
+		color-stop(0%, rgba(128, 128, 128, .6)), 
+		color-stop(100%, rgba(255, 255, 255, .4)));
+	background-image: -webkit-linear-gradient(rgba(128, 128, 124, .6),
+		rgba(255, 255, 255, .4));
+	background-image: -moz-linear-gradient(rgba(128, 128, 124, .6),
+		rgba(0, 0, 0, .4));
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .6));
+}
+.footer-container {
+    overflow: hidden;
+}
+@media(min-width:850px) {
+    .footer-container {
+    padding-left: 10px;
+}
+
+
+
+#footer a {
+//	color: #FFF;
+color: #c5def0;
+    cursor: pointer;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #FFD988 !important;
+}
+
+#footer h5 a{
+	font-size: 18px;
+	line-height: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+#footer ul {
+	margin-left: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+@media (min-width: 850px) {
+	#footer .col-md-2 {
+		flex: 0 0 20%;
+		max-width: 20%;
+		padding: 0 10px;
+	}
+}
+
+.footerLinkBlock {
+	vertical-align: text-top;
+	display: inline-block;
+	line-height: 1.2em;
+	min-width: 10%;
+	width: 18%;
+	margin: auto;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+#footer-extras {
+}

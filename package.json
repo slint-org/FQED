@@ -1,0 +1,28 @@
+{
+  "name": "FQED",
+  "version": "1.0.0",
+  "description": "Housekeeping:\r   1. Set up a folder on your c drive to hold all FQUED related items.",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slint-org/FQED.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slint-org/FQED/issues"
+  },
+  "homepage": "https://github.com/slint-org/FQED#readme"
+}
