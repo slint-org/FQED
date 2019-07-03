@@ -1,0 +1,58 @@
+/* =================================================
+ Styling for navbar - Desktop. navbar.scss
+==================================================== */
+
+.nav-link {
+    width: 150px;
+    text-align: center;
+    color: rgba(0,0,0, 1) !important;
+    font-family: 'Montserrat', "Open Sans", Arial;
+    font-weight: 400 !important;
+    padding: 0px 2vw 5px;
+    border-bottom: rgba(207,8,11,1.00) 2px solid;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(207,8,11,.8) !important;
+    font-weight: 600 !important;
+    padding-bottom: 4px;
+    border-bottom: rgba(207,8,11,1.00) 3px solid;
+}
+
+ul li.nav-item {
+    margin: 0px 30px !important;
+}
+/* override of Bootstrap.css */
+.nav-item active {
+    margin: 0px 50px !important;
+}
+
+.active {
+    width: 100%;
+    background: linear-gradient(to top, rgba(226,188,73,.35), rgba(226,188,73,0) 65%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500 !important;
+}
+/* end of override*/
+
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom {
+ /*   margin-left: 114px; */
+}
+.navbar-nav li a {
+    color: #000;
+}
+
+
+/* =================================================
+ End of styling for navbar - Desktop. navbar.scss
+==================================================== */

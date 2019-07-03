@@ -1,0 +1,100 @@
+/* =================================================
+  Styling Desktop non mobile styling for the index.html page. 
+==================================================== */
+
+@import 'styles.scss';
+
+.carousel-caption {
+    display: none;
+}
+.underNavColor {
+    //background-color:black;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.main-content {
+    margin-top: -2.5px;
+}
+
+.container .links {
+    float: right;
+    margin-top: -9%;
+    max-width: 10em;
+}
+.news-container a {
+    color: $navbar-color;
+    font-weight: bold;
+    font-size: 1em;
+}
+.custom-sidebar {
+    background: linear-gradient(to bottom, rgba(226, 188, 73, 0.35), rgba(226, 188, 73, 0) 129%);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.2em;
+}
+
+.custom-sidebar .date {
+    color: #696969;
+    font-size: .9em;
+}
+
+.custom-sidebar .line::after {
+    width: 100%;
+    margin: auto;
+}
+
+.custom-sidebar a {
+    color: #990000;
+    font-weight: bold;
+}
+
+.custom-sidebar h2 {
+    color: #696969;
+}
+
+.custom-sidebar h3 {
+    font-size: 1.3em;
+}
+.news a {
+    font-weight: 900;
+}
+
+.news a {
+    font-weight: 900;
+}
+
+.news-container a {
+    color: $navbar-color;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================
+  End of Styling Desktop styling .
+==================================================== */

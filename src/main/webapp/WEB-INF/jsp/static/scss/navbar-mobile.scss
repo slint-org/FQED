@@ -1,0 +1,37 @@
+/* =================================================
+ Styling for navbar - Mobile. navbar-mobile.scss
+==================================================== */
+
+@media only screen and (max-width: 1200px) {
+
+    ul li.nav-item {
+        margin: 0px 1.2vw !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar-custom {
+        margin-left: 0px;
+    }
+
+    ul li a.nav-link {
+        width: 100% !important;
+        border-bottom-width: 1px;
+    }
+
+    .navbar-nav .nav-link:hover {
+        border-bottom-width: 2px;
+    }
+
+    .active {
+        width: 97%;
+        margin: 0px;
+        background: linear-gradient(to top, rgba(226,188,73,.35), rgba(226,188,73,0) 65%);
+    }
+}
+
+
+
+
+/* =================================================
+End of Styling for navbar - Mobile. navbar-mobile.scss
+==================================================== */

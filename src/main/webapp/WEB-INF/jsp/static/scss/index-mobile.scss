@@ -1,0 +1,348 @@
+/* =================================================
+  Base Media Querues - Mobile View Layouts - EDIT THESE IN MOBILE SCSS FILE!!!
+==================================================== */
+
+
+@media only screen and (max-width: 767px)  {
+
+.socialMediaBlock{
+display: block;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+}
+
+}
+
+
+/*IPhone 5/SE viewport--------*/
+@media (width: 320px) {
+    .custom-sidebar {
+        margin-left: -15px;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+        width: 152%;
+    }
+}
+
+/*Galaxy S5 viewport--------*/
+@media (width: 360px) {
+    .custom-sidebar {
+        margin-left: -30px;
+        margin-bottom: 10%;
+        margin-top: -8px;
+        padding-bottom: 5%;
+        width: 177%;
+    }
+
+    .banner {
+        width: 107%;
+    }
+
+    .banner .logo_image {
+        margin-top: 5%;
+    }
+
+    .blog-header {
+        padding-top: 3.5%;
+    }
+
+    .image-text {
+        margin-top: 3%;
+    }
+
+    .img-fluid {
+        margin: auto;
+        text-align: center;
+    }
+
+    .linksofInterest {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .number,
+    .linksofInterest p {
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .link_text {
+        margin-top: -1%;
+        margin-bottom: 2%;
+        margin-left: -10px;
+    }
+
+    .navbar-custom {
+        width: 107%;
+    }
+
+    .news-container {
+        margin-top: 3%;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .social-networks {
+        margin-left: 48px;
+    }
+
+    .social_tag {
+        margin-left: 55px;
+    }
+
+    .video-box {
+        height: 50%;
+        width: 120%;
+        margin: 15px;
+    }
+
+    .video-box p {
+        margin-top: -10px;
+    }
+}
+/* =================================================
+  Base Media Querues - Mobile View Layouts
+==================================================== */
+
+
+
+/*IPhone 6-8/IPhone X viewport--------*/
+@media (width: 375px) {
+    .custom-sidebar {
+        margin-left: -30px;
+        margin-bottom: 10%;
+        margin-top: -8px;
+        padding-bottom: 5%;
+        width: 180%;
+    }
+
+    .banner {
+        width: 110%;
+    }
+
+    .banner .logo_image {
+        margin-top: 5%;
+    }
+
+    .blog-header {
+        padding-top: 3.5%;
+    }
+
+    .image-text {
+        margin-top: 3%;
+    }
+
+    .img-fluid {
+        margin: auto;
+        text-align: center;
+    }
+
+    .linksofInterest {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .number,
+    .linksofInterest p {
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .link_text {
+        text-align: center;
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+
+    .navbar-custom {
+        width: 110%;
+    }
+
+    .news-container {
+        margin-top: 3%;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .social-networks {
+        margin-left: 48px;
+    }
+
+    .social_tag {
+        margin-left: 58px;
+    }
+
+    .video-box {
+        height: 50%;
+        width: 120%;
+        margin: 15px 15px 15px 20px;
+    }
+
+    .video-box p {
+        margin-top: -10px;
+    }
+}
+
+/*Pixel 2/Pixel 2 XL viewport--------*/
+@media (width: 411px) {
+    .custom-sidebar {
+        margin-left: -30px;
+        margin-bottom: 10%;
+        margin-top: -8px;
+        padding-bottom: 5%;
+        width: 175%;
+    }
+
+    .banner {
+        width: 109%;
+    }
+
+
+    .banner .logo_image {
+        margin-top: 5%;
+    }
+
+    .blog-header {
+        padding-top: 3.5%;
+    }
+
+    .image-text {
+        margin-top: 3%;
+    }
+
+    .img-fluid {
+        margin: auto;
+        text-align: center;
+    }
+
+    .linksofInterest {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .number,
+    .linksofInterest p {
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .link_text {
+        text-align: center;
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+
+    .navbar-custom {
+        width: 109%;
+    }
+
+    .news-container {
+        margin-top: 3%;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .social-networks {
+        margin-left: 48px;
+    }
+
+    .social_tag {
+        margin-left: 55px;
+    }
+
+    .video-box {
+        height: 50%;
+        width: 110%;
+        margin: 15px 15px 15px 20px;
+    }
+
+    .video-box p {
+        margin-top: -10px;
+    }
+}
+
+/*IPhone 6-8 Plus viewport--------*/
+@media (width: 414px) {
+    .custom-sidebar {
+        margin-left: -30px;
+        margin-bottom: 10%;
+        margin-top: -8px;
+        padding-bottom: 5%;
+        width: 175%;
+    }
+
+    .banner {
+        width: 109%;
+    }
+
+    .banner .logo_image {
+        margin-top: 5%;
+    }
+
+    .blog-header {
+        padding-top: 3.5%;
+    }
+
+    .image-text {
+        margin-top: 3%;
+    }
+
+    .img-fluid {
+        margin: auto;
+        text-align: center;
+    }
+
+    .linksofInterests {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .number,
+    .linksofInterest p {
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .link_text {
+        text-align: center;
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+
+    .navbar-custom {
+        width: 109%;
+    }
+
+    .news-container {
+        margin-top: 3%;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .social-networks {
+        margin-left: 48px;
+    }
+
+    .social_tag {
+        margin-left: 55px;
+    }
+
+    .video-box {
+        height: 50%;
+        width: 120%;
+        margin: 15px;
+    }
+
+    .video-box p {
+        margin-top: -10px;
+    }
+}

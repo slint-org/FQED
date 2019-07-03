@@ -1,0 +1,40 @@
+/* =================================================
+ Global Mobile Start
+==================================================== */
+@media only screen and (max-width: 996px) {
+    .social-media {
+        display: none;
+    }
+
+    .card {
+        margin-left: 0px !important;
+    }
+
+    .faqButtons #applying-btn, #languageSkills-btn, #membership-btn, #assignments-btn, #nlsc-background-btn, #agency-faq-btn {
+        max-width: 13em;
+        min-width: 13em;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .mb-0 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .links {
+        display: none;
+    }
+
+    .main-content {
+        margin-top: -17px;
+    }
+
+    .custom-sidebar {
+        margin-top: -16px
+    }
+}
+/* =================================================
+  End of Global Mobile
+==================================================== */
