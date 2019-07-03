@@ -1,0 +1,65 @@
+2019-07-03 14:17:35.125  INFO 20128 --- [restartedMain] org.fqed.Application                     : Starting Application on BAHCND7333V34 with PID 20128 (C:\Users\583592\code\FQED\target\classes started by 583592 in C:\Users\583592\code\FQED)
+2019-07-03 14:17:35.127 DEBUG 20128 --- [restartedMain] org.fqed.Application                     : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-07-03 14:17:35.129  INFO 20128 --- [restartedMain] org.fqed.Application                     : No active profile set, falling back to default profiles: default
+2019-07-03 14:17:35.199  INFO 20128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e732cec: startup date [Wed Jul 03 14:17:35 EDT 2019]; root of context hierarchy
+2019-07-03 14:17:37.669  INFO 20128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2fa28228] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 14:17:38.472  INFO 20128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-03 14:17:38.516  INFO 20128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-03 14:17:38.516  INFO 20128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-07-03 14:17:38.526  INFO 20128 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;%JAVA_HOME%\bin;M2;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\nodejs\;C:\Users\583592\AppData\Local\Microsoft\WindowsApps;C:\Java\jdk1.8.0_201\bin;M2;C:\Users\583592\AppData\Roaming\npm;C:\Program Files\nodejs\npm;;.]
+2019-07-03 14:17:39.203  INFO 20128 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-03 14:17:39.208  INFO 20128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-03 14:17:39.209  INFO 20128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4010 ms
+2019-07-03 14:17:39.805  INFO 20128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-03 14:17:39.806  INFO 20128 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-07-03 14:17:39.806  INFO 20128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-07-03 14:17:39.806  INFO 20128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-07-03 14:17:39.807  INFO 20128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-07-03 14:17:40.055  INFO 20128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-03 14:17:40.715  INFO 20128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-03 14:17:40.824  INFO 20128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-07-03 14:17:40.862  INFO 20128 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-03 14:17:41.080  INFO 20128 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.16.Final}
+2019-07-03 14:17:41.082  INFO 20128 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-03 14:17:41.146  INFO 20128 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-03 14:17:41.398  INFO 20128 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-03 14:17:41.771  INFO 20128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-03 14:17:41.812  INFO 20128 --- [restartedMain] org.fqed.ApplicationUrls                 : Cannot retrieve Routes field value.
+2019-07-03 14:17:41.812  INFO 20128 --- [restartedMain] org.fqed.ApplicationUrls                 : Cannot retrieve Routes field value.
+2019-07-03 14:17:41.813  INFO 20128 --- [restartedMain] org.fqed.ApplicationInitializer          : setServletContext
+2019-07-03 14:17:42.006  INFO 20128 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b1c0aba6-00f9-44c7-8c6a-47ccb46a5036
+
+2019-07-03 14:17:42.112  WARN 20128 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-03 14:17:42.193  INFO 20128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.web.servlet.ModelAndView org.fqed.controller.ErrorPageController.error(javax.servlet.http.HttpServletResponse)
+2019-07-03 14:17:42.194  INFO 20128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/public/error/403]}" onto public org.springframework.web.servlet.ModelAndView org.fqed.controller.PublicController.return403()
+2019-07-03 14:17:42.195  INFO 20128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/public/error/construction]}" onto public org.springframework.web.servlet.ModelAndView org.fqed.controller.PublicController.construction()
+2019-07-03 14:17:42.195  INFO 20128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.fqed.controller.PublicController.home()
+2019-07-03 14:17:42.289  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.290  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.290  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.290  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/auth/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.291  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/nav/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.291  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/documents/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.292  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/secure/clients/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.292  INFO 20128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/secure/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-03 14:17:42.399  INFO 20128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e732cec: startup date [Wed Jul 03 14:17:35 EDT 2019]; root of context hierarchy
+2019-07-03 14:17:42.663  INFO 20128 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2019-07-03 14:17:42.663  INFO 20128 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/js/**'], []
+2019-07-03 14:17:42.774  INFO 20128 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a69fa5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6963297c, org.springframework.security.web.header.HeaderWriterFilter@1613bad5, org.springframework.security.web.authentication.logout.LogoutFilter@3236cec5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17fdd498, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65e1ec3d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d1d7993, org.springframework.security.web.session.SessionManagementFilter@1c865a34, org.springframework.security.web.access.ExceptionTranslationFilter@659f52c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c7f9f31]
+2019-07-03 14:17:43.996  INFO 20128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-03 14:17:44.018  INFO 20128 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2019-07-03 14:17:44.034  INFO 20128 --- [restartedMain] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-03 14:17:44.107  INFO 20128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-07-03 14:17:44.108  INFO 20128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-03 14:17:44.114  INFO 20128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-03 14:17:44.128  INFO 20128 --- [restartedMain] org.fqed.ApplicationInitializer          : Application Started Event
+2019-07-03 14:17:44.210  INFO 20128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-03 14:17:44.216  INFO 20128 --- [restartedMain] org.fqed.Application                     : Started Application in 9.82 seconds (JVM running for 11.524)
+2019-07-03 14:18:01.117  INFO 20128 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-03 14:18:01.118  INFO 20128 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-03 14:18:01.186  INFO 20128 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 68 ms
+2019-07-03 17:57:40.503  WARN 20128 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m59s602ms276µs213ns).
