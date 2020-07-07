@@ -4,7 +4,7 @@
   "description": "Housekeeping:\r   1. Set up a folder on your c drive to hold all FQUED related items.",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
